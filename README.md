@@ -8,13 +8,13 @@ In this project, DSC architecture is used to detect apneic events using St. Vinc
 
 The following variables in *main.py* are needed to be set accordingly:
 
-Header = Header of each record from the St. Vincent Hospital Dataset
-matPath = .mat file containing the continuous annotation from St. Vincent Hospital dataset
-timeLength = length of each signal segment
-minThresh = minmum seconds with apneic activity within each segment
-path = path to the dataset
-fileVincent_ECG = path to the .csv file with ECG signal from St. Vincet Hospital dataset
-fileVincent_SpO2 = path to the .csv file with SpO2 signal from St. Vincent Hospital dataset
-fileApnea_ECG = path to the .csv file with ECG signal from Apnea-ECG dataset
-fileApnea_matchedECG = path to the .csv file with ECG signal from Apnea-ECG dataset that have corresponding SpO2 data points
-fileApnea_SpO2 = path to the .csv file with SpO2 signal from Apnea-ECG dataset
+- Header = Header of each record from the St. Vincent Hospital Dataset
+- matPath = .mat file containing the continuous annotation from St. Vincent Hospital dataset
+- timeLength = length of each signal segment
+- minThresh = minmum seconds with apneic activity within each segment
+- path = path to the dataset
+- fileVincent_ECG = path to the .csv file with ECG signal from St. Vincet Hospital dataset
+- fileVincent_SpO2 = path to the .csv file with SpO2 signal from St. Vincent Hospital dataset
+- fileApnea_ECG = path to the .csv file with ECG signal from Apnea-ECG dataset
+- fileApnea_matchedECG = path to the .csv file with ECG signal from Apnea-ECG dataset that have corresponding SpO2 data points
+- fileApnea_SpO2 = path to the .csv file with SpO2 signal from Apnea-ECG dataset
